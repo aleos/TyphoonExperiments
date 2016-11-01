@@ -54,14 +54,30 @@
 		57F36DA41DC922E900B43B5F /* TyphoonExperiments */ = {
 			isa = PBXGroup;
 			children = (
-				57F36DA51DC922E900B43B5F /* AppDelegate.swift */,
 				57F36DA71DC922E900B43B5F /* ViewController.swift */,
 				57F36DA91DC922E900B43B5F /* Main.storyboard */,
-				57F36DAC1DC922E900B43B5F /* Assets.xcassets */,
-				57F36DAE1DC922E900B43B5F /* LaunchScreen.storyboard */,
-				57F36DB11DC922E900B43B5F /* Info.plist */,
+				57F36DB81DC9274900B43B5F /* Resourses */,
+				57F36DB71DC9273200B43B5F /* Supporting Files */,
 			);
 			path = TyphoonExperiments;
+			sourceTree = "<group>";
+		};
+		57F36DB71DC9273200B43B5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57F36DA51DC922E900B43B5F /* AppDelegate.swift */,
+				57F36DB11DC922E900B43B5F /* Info.plist */,
+				57F36DAE1DC922E900B43B5F /* LaunchScreen.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57F36DB81DC9274900B43B5F /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				57F36DAC1DC922E900B43B5F /* Assets.xcassets */,
+			);
+			name = Resourses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
