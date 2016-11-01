@@ -1,0 +1,14 @@
+PODS:
+  - Typhoon (3.5.1):
+    - Typhoon/no-arc (= 3.5.1)
+  - Typhoon/no-arc (3.5.1)
+
+DEPENDENCIES:
+  - Typhoon
+
+SPEC CHECKSUMS:
+  Typhoon: c0950bb9f2e835eb8a7dc6983160109b6baf2dda
+
+PODFILE CHECKSUM: 60ae8e97ef5d300765421afae91253fc4ab7d8e6
+
+COCOAPODS: 1.1.1

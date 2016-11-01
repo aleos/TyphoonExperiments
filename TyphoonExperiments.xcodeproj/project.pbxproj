@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		231C50A55423202BC4EAF18C /* Pods_TyphoonExperiments.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB40F5F61C725EE95C0786F8 /* Pods_TyphoonExperiments.framework */; };
 		57F36DA61DC922E900B43B5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F36DA51DC922E900B43B5F /* AppDelegate.swift */; };
 		57F36DA81DC922E900B43B5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F36DA71DC922E900B43B5F /* ViewController.swift */; };
 		57F36DAB1DC922E900B43B5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57F36DA91DC922E900B43B5F /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A498DCC3663A50517B644E3 /* Pods-TyphoonExperiments.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TyphoonExperiments.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TyphoonExperiments/Pods-TyphoonExperiments.debug.xcconfig"; sourceTree = "<group>"; };
 		57F36DA21DC922E900B43B5F /* TyphoonExperiments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TyphoonExperiments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57F36DA51DC922E900B43B5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57F36DA71DC922E900B43B5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		57F36DAF1DC922E900B43B5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57F36DB11DC922E900B43B5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57F36DB91DC927A500B43B5F /* StartUpConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartUpConfigurator.swift; sourceTree = "<group>"; };
+		BA162CE853407D03684552C5 /* Pods-TyphoonExperiments.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TyphoonExperiments.release.xcconfig"; path = "Pods/Target Support Files/Pods-TyphoonExperiments/Pods-TyphoonExperiments.release.xcconfig"; sourceTree = "<group>"; };
+		CB40F5F61C725EE95C0786F8 /* Pods_TyphoonExperiments.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TyphoonExperiments.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				231C50A55423202BC4EAF18C /* Pods_TyphoonExperiments.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				57F36DA41DC922E900B43B5F /* TyphoonExperiments */,
 				57F36DA31DC922E900B43B5F /* Products */,
+				CB9840B32698CA27F7DEC4C0 /* Pods */,
+				965EC14FA7FAF36EA3D92B15 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +90,23 @@
 			name = Resourses;
 			sourceTree = "<group>";
 		};
+		965EC14FA7FAF36EA3D92B15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB40F5F61C725EE95C0786F8 /* Pods_TyphoonExperiments.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB9840B32698CA27F7DEC4C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A498DCC3663A50517B644E3 /* Pods-TyphoonExperiments.debug.xcconfig */,
+				BA162CE853407D03684552C5 /* Pods-TyphoonExperiments.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -90,9 +114,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57F36DB41DC922E900B43B5F /* Build configuration list for PBXNativeTarget "TyphoonExperiments" */;
 			buildPhases = (
+				3F51A6D9040A06A773593F52 /* [CP] Check Pods Manifest.lock */,
 				57F36D9E1DC922E900B43B5F /* Sources */,
 				57F36D9F1DC922E900B43B5F /* Frameworks */,
 				57F36DA01DC922E900B43B5F /* Resources */,
+				42D5F2B5465A367FE52E8AA8 /* [CP] Embed Pods Frameworks */,
+				90F2B742422679D4DC689B92 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -150,6 +177,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F51A6D9040A06A773593F52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		42D5F2B5465A367FE52E8AA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TyphoonExperiments/Pods-TyphoonExperiments-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90F2B742422679D4DC689B92 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TyphoonExperiments/Pods-TyphoonExperiments-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		57F36D9E1DC922E900B43B5F /* Sources */ = {
@@ -279,6 +354,7 @@
 		};
 		57F36DB51DC922E900B43B5F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A498DCC3663A50517B644E3 /* Pods-TyphoonExperiments.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2UZBQ4Q9LW;
@@ -292,6 +368,7 @@
 		};
 		57F36DB61DC922E900B43B5F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA162CE853407D03684552C5 /* Pods-TyphoonExperiments.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2UZBQ4Q9LW;
