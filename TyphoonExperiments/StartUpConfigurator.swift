@@ -8,6 +8,6 @@
 
 import Foundation
 
-class StartUpConfigurator {
+class StartUpConfigurator: NSObject {
     
 }

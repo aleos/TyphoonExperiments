@@ -10,7 +10,7 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-    private let startUpConfigurator: StartUpConfigurator! = nil
+    var startUpConfigurator: StartUpConfigurator!
 
     var window: UIWindow?
 
